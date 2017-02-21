@@ -9,7 +9,7 @@ Lines starting with `#` are software installations that are possibly not needed,
 ```
 $ cd ~
 $ wget https://github.com/indoor-reality/libgtsam/archive/master.zip
-$ # sudo apt-get install unzip
+#$ sudo apt-get install unzip
 $ unzip master.zip
 $ cd libgtsam-master
 $ mkdir build
