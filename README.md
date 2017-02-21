@@ -80,15 +80,7 @@ To make this part, you need to extend the work on part I by reading a large data
   - visualize the problem prior to solving, 
     - In the linux terminal, type 
     ```
-    neato -x -Gorientation=landscape -Nfontsize=30 -Tpdf PoseSLAMInitial.dot > PoseSLAMInitial.pdf
-    ``` 
-    and visualize the document. 
-  - solve
-  - save the graph of the problem after solving: file `PoseSLAMResult.dot`
-  - visualize the problem after solving, 
-    - In the linux terminal, type 
-    ```
-    neato -x -Gorientation=landscape -Nfontsize=30 -Tpdf PoseSLAMResult.dot > PoseSLAMResult.pdf
+    neato -x -Gorientation=landscape -Nfontsize=30 -Tpdf <input_name>.dot > <output_name>.pdf
     ``` 
     and visualize the document. 
   - Compare and comment the results.
