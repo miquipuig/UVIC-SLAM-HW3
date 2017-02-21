@@ -28,10 +28,5 @@
 *.out
 *.app
 
-CATKIN_IGNORE
-
-devel/*
-build/*
-
 part_1/build/*
 part_2/build/*
