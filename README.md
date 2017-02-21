@@ -14,9 +14,9 @@ $ unzip master.zip
 $ cd libgtsam-master
 $ mkdir build
 $ cd build
-$ #  sudo apt-get install g++
-$ #sudo apt-get install cmake
-$ # sudo apt-get install libboost-all-dev
+#$ sudo apt-get install g++
+#$ sudo apt-get install cmake
+#$ sudo apt-get install libboost-all-dev
 $ cmake ..
 $ sudo make install
 ```
@@ -118,4 +118,3 @@ $ ./PoseSLAM
 $ neato -x -Gorientation=landscape -Nfontsize=30 -Tpdf NonOptimizedGraph.dot > non_optimized_graph_part_2.pdf
 $ neato -x -Gorientation=landscape -Nfontsize=30 -Tpdf OptimizedGraph.dot > optimized_graph_part_2.pdf
 ```
-
