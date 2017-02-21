@@ -8,10 +8,8 @@ Lines starting with `#` are software installations that are possibly not needed,
 
 ```
 $ cd ~
-$ wget https://github.com/indoor-reality/libgtsam/archive/master.zip
-#$ sudo apt-get install unzip
-$ unzip master.zip
-$ cd libgtsam-master
+$ git clone git@github.com:davidswords/libgtsam.git
+$ cd libgtsam
 $ mkdir build
 $ cd build
 #$ sudo apt-get install g++
