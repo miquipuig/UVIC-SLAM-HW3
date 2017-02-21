@@ -76,7 +76,7 @@ To make this part, you need to extend the work on part I by reading a large data
   - Parse it and build the graph:
     - For each node, initialize the state
     - For each edge, create a odometry factor
-  - save the graph of the problem prior to solving: file `PoseSLAMInitial.dot`
+  - save the graph of the problem prior to solving: file `<input_name>.dot`
   - visualize the problem prior to solving, 
     - In the linux terminal, type 
     ```
