@@ -89,7 +89,7 @@ To make this part, you need to extend the work on part I by reading a large data
 
 #### Part I
 ```
-$ cd ~/SLAM-HW3/part_1
+$ cd ~/UVIC-SLAM-HW3/part_1
 $ mkdir build
 $ cd build
 $ cmake ..
@@ -101,7 +101,7 @@ $ neato -x -Nfontsize=30 -Tpdf OptimizedGraph.dot > optimized_graph_part_1.pdf
 
 #### Part II
 ```
-$ cd ~/SLAM-HW3/part_2
+$ cd ~/UVIC-SLAM-HW3/part_2
 $ mkdir build
 $ cd build
 $ cmake ..
