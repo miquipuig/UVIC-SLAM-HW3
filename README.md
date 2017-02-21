@@ -4,17 +4,12 @@
 
 ### Gtsam
 
-Lines starting with `#` are software installations that are possibly not needed, depending on your current state of Ubuntu.
-
 ```
 $ cd ~
 $ git clone git@github.com:davidswords/libgtsam.git
 $ cd libgtsam
 $ mkdir build
 $ cd build
-#$ sudo apt-get install g++
-#$ sudo apt-get install cmake
-#$ sudo apt-get install libboost-all-dev
 $ cmake ..
 $ sudo make install
 ```
