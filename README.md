@@ -47,10 +47,16 @@ To make this part, you need to get inspiration from Listing 1 and Listing 2 in t
   - Build a prior for the first state:
     - prior: `[x,y,th] = [0,0,0], sigmas = [0.2,0.2,0.1]`
   - Build a chain of odometry steps between consecutive states:
-    - step 1: `[dx,dy,dth] = [1.1, 0.02, 0.0 ]; sigmas = [0.3,0.3,0.1]`
-    - step 2: `[dx,dy,dth] = [0.9, 0.04, 1.6]`
-    - step 3: `[dx,dy,dth] = [1.05, -0.08, 1.6]`
-    - step 4: `[dx,dy,dth] = [1.01, 0.01, 1.6]`
+    - step 1: `[dx,dy,dth] = [2.0, 0.0, 0.0 ]; sigmas = [0.3,0.3,0.1]`
+    - step 2: `[dx,dy,dth] = [2.0, 0.0, pi/2]`
+    - step 3: `[dx,dy,dth] = [2.0, 0.0, pi/2]`
+    - step 4: `[dx,dy,dth] = [2.0, 0.0, pi/2]`
+  - Set the initial pose states of the 5 nodes to somewhat wrong values:
+    - pose 1: `[x,y,th] = [0.5, 0.0,  0.2]`
+    - pose 2: `[x,y,th] = [2.3, 0.1, -0.2]`
+    - pose 3: `[x,y,th] = [4.1, 0.1,  1.6]`
+    - pose 4: `[x,y,th] = [4.0, 2.0,  3.1]`
+    - pose 5: `[x,y,th] = [2.1, 2.1, -1.5]`
   - Solve the resulting graph.
   - Visualize it.
   - Compute the marginal covariances of each node
