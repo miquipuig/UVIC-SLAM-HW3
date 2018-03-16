@@ -27,6 +27,8 @@ $ sudo apt-get install graphviz
   - The GTSAM tutorial should be of great help for this HW:
 
   https://pdfs.semanticscholar.org/5f27/7ad6aff683be07bed616897a159464354333.pdf
+  
+  https://smartech.gatech.edu/bitstream/handle/1853/45226/Factor%20Graphs%20and%20GTSAM%20A%20Hands-on%20Introduction%20GT-RIM-CP%26R-2012-002.pdf?sequence=1&isAllowed=y
 
   - For the part II of the HW, you may want to consult the format of the SLAM datasets:
 
